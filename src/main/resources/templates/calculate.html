@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body data-th-object="${calculate}">
+    <div class="container">
+        <p data-th-text="*{id}"></p>
+        </br>
+        Person Name 1:<p data-th-text="*{firstName}"></p>
+        </br>
+        Person Name 2:<p data-th-text="*{secondName}"></p>
+        </br>
+        <p><span data-th-text="*{percentage}"></span>%</p>
+        </br>
+        <p data-th-text="*{result}"></p>
+    </div>
+</body>
+</html>
